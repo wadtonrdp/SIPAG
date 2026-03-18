@@ -1,36 +1,119 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# ===========================
+#        NEXT.JS / NODE
+# ===========================
 
-# dependencies
-/node_modules
-/.pnp
+# Dependências
+node_modules/
+.pnp
 .pnp.js
 
-# testing
-/coverage
+# Build
+.next/
+out/
+build/
+dist/
 
-# next.js
-/.next/
-/out/
+# Cache
+.npm
+.eslintcache
+.turbo
 
-# production
-/build
+# Variáveis de ambiente (NUNCA subir isso!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# misc
-.DS_Store
-*.pem
-
-# debug
+# Debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
-.env*.local
-.env
+# Misc
+.DS_Store
+*.pem
+Thumbs.db
 
-# vercel
-.vercel
-
-# typescript
+# TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# ===========================
+#          C# / .NET
+# ===========================
+
+# Build
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+
+# Visual Studio / Rider
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+.idea/
+
+# Configurações locais sensíveis (NUNCA subir isso!)
+appsettings.Development.json
+appsettings.local.json
+secrets.json
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs e temp
+*.log
+*.tmp
+*.temp
+[Ll]og/
+[Ll]ogs/
+[Tt]emp/
+
+# Testes
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+coverage/
+*.coverage
+*.coveragexml
+
+# Publicação
+publish/
+PublishProfiles/
+
+
+# ===========================
+#        BANCO DE DADOS
+# ===========================
+
+# PostgreSQL dumps locais
+*.sql
+*.dump
+*.bak
+
+
+# ===========================
+#           GERAL
+# ===========================
+
+# Sistema operacional
+.DS_Store
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editores
+*.swp
+*.swo
+*~
