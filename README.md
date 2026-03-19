@@ -15,6 +15,7 @@ O **SIPAG** é uma plataforma web desenvolvida para gerenciar o fluxo de equipam
 | Perfil | Descrição | Permissões |
 |---|---|---|
 | **Agente** | Controla a agência na qual foi cadastrado | Controla estoque da agência, cadastra equipamentos, cria pedidos |
+| **Gerente** | Realiza o operacional junto dos agentes da sua agência e responde ao regional | Controla e supervisiona agentes da agência designada, acessa estoque da agência, cria e acompanha pedidos |
 | **Analista** | Realiza a maior parte das funcionalidades do sistema | Cadastro/remoção de usuários, controle de estoque da sede e agências, autoriza/nega pedidos, cria pedidos |
 | **Regional** | Controla todas as agências designadas no cadastro (uma ou mais) | Controla estoques das agências, visualiza e cria pedidos das agências |
 
@@ -27,7 +28,7 @@ O **SIPAG** é uma plataforma web desenvolvida para gerenciar o fluxo de equipam
 - 📋 Criação e acompanhamento de pedidos
 - ✅ Aprovação e negação de pedidos entre agências e sede
 - 👤 Gerenciamento de usuários com controle de acesso por perfil
-- 🌐 Painel diferenciado por nível de acesso (Agente, Analista, Regional)
+- 🌐 Painel diferenciado por nível de acesso (Agente, Gerente, Analista, Regional)
 
 ---
 
