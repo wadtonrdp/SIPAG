@@ -130,8 +130,8 @@ O front-end consome a API via requisições HTTP (REST). A autenticação é fei
 
 | Área | Desenvolvedor |
 |---|---|
-| Front-end (Next.js, React, TypeScript) | [@seu-usuario](https://github.com/wadtonrdp) |
-| Back-end (C#, .NET, PostgreSQL) | [@usuario-colega](https://github.com/tutuzimaia) |
+| Front-end (Next.js, React, TypeScript) | [@wadtonrdp](https://github.com/wadtonrdp) |
+| Back-end (C#, .NET, PostgreSQL) | [@tutuzimaia](https://github.com/tutuzimaia) |
 
 ---
 
