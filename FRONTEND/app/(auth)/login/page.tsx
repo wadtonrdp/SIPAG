@@ -8,14 +8,7 @@ export default function login(){
 
                 <img src="https://placehold.co/600x900" className="h-screen w-auto object-fill"/>
 
-                <div className="
-                bg-[#C9D200] font-primary text-white text-[24px]
-                h-auto max-h-120 min-h-100
-                w-full max-w-120
-                p-7
-                rounded-[15px]
-                shadow-xl/30
-                ">
+                <div className="bg-[#C9D200] font-primary text-white text-[24px] h-auto max-h-120 min-h-100 w-full max-w-120 p-7 rounded-[15px] shadow-xl/30 ">
                     <h2 className="text-center text-[34px] font-bold">Faça Login</h2>
                     <form action="" >
                         <label htmlFor="" className="text-lg">Login</label><br />

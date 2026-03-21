@@ -1,17 +1,6 @@
 @import "tailwindcss";
 
-:root{
-
-  --cor1: white;
-  --cor2: black;
-  --cor3: #a5ad00;
-}
-
 input {
   border: 3.5px solid white;
   border-radius: 5px;
-}
-
-label{
-  
 }
