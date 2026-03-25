@@ -15,7 +15,7 @@ export default function Login() {
             Conecte-se para acessar seu painel personalizado e gerenciar equipamentos com eficiência.
           </p>
 
-          <div className="relative w-full aspect-square mt-4 hover:scale-105 transition-transform duration-500">
+          <div className="relative w-full aspect-square mt-4 hover:scale-112 transition-transform duration-500">
             <Image 
               src="/assets/Welcome_Img.png"
               alt="Ilustração SIPAG"
