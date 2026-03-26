@@ -31,6 +31,8 @@ export default function Login() {
       </div>
 
       <div className="flex-1 flex items-center justify-center p-6 sm:p-12">
+        <div className="flex flex-col items-center w-full max-w-[460px]">
+        <img src="/assets/Logo_SIPAG.png" alt="Logo SIPAG" className="mb-6" />
         <div className="bg-[#C9D200] text-slate-900 w-full max-w-[460px] p-10 rounded-[24px] shadow-[0_20px_50px_rgba(0,0,0,0.2)] border border-white/20">
           <h2 className="text-center text-[32px] font-bold mb-8">
             Acessar Conta
@@ -76,6 +78,7 @@ export default function Login() {
             </div>
           </form>
         </div>
+      </div>
       </div>
     </main>
   );

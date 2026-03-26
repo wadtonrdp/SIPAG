@@ -11,9 +11,9 @@ export default function Sidebar() {
     pathname === href ? "bg-[#C9D200]" : "hover:bg-[#C9D200]/55";
 
   return (
-    <div className="hidden lg:flex h-screen w-[350px] flex-col items-center bg-white shadow-xl">
-      <div className="text-center text-slate-900 max-w-sm">
-        <div className="bg-[#00AE9D] h-22 w-[350px] flex-none">
+    <div className="hidden lg:flex h-screen w-full max-w-[300px] flex-col items-center bg-white shadow-xl">
+      <div className="text-center text-slate-900 w-full max-w-[350px]">
+        <div className="bg-[#00AE9D] h-22 max-w-[350px] flex-none">
           <h1 className="text-white text-[50px] text-center font-black">
             SIPAG
           </h1>
